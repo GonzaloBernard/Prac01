@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DAM App</string>
+    <string name="string_banca">Banca Online</string>
+    <string name="string_monto">Monto Inicial a Convertir</string>
+    <string name="string_tasa">Tasa de Interes Anual (%)</string>
+    <string name="string_meses">Meses</string>
+    <string name="string_calcular">CALCULAR</string>
+    <string name="string_resultado">$0.00</string>
+    <string name="string_error">Complete todos los campos</string>
+</resources>
