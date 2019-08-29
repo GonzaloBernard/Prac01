@@ -31,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
 
             public void onClick(View v) {
                 if(editText1.getText().length()>0 && editText2.getText().length()>0 && editText3.getText().length()>0) {
+
+
                     Float montoInicial = (Float) Float.parseFloat(editText1.getText().toString());
                     Integer tasaInteres = (Integer) Integer.parseInt(editText2.getText().toString());
                     Integer meses = (Integer) Integer.parseInt(editText3.getText().toString());

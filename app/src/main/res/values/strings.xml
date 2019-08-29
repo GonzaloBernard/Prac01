@@ -6,5 +6,5 @@
     <string name="string_meses">Meses</string>
     <string name="string_calcular">CALCULAR</string>
     <string name="string_resultado">$0.00</string>
-    <string name="string_error">Complete todos los campos</string>
+    <string name="string_error">Complete los campos</string>
 </resources>
