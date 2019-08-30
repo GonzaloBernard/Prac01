@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DAM App</string>
+    <string name="string_banca">Online Bank</string>
+    <string name="string_monto">Inicial amount to convert</string>
+    <string name="string_tasa">Annual interes rate (%)</string>
+    <string name="string_meses">Months</string>
+    <string name="string_calcular">GO</string>
+    <string name="string_resultado">$0.00</string>
+    <string name="string_error">Complete the fields</string>
+</resources>
