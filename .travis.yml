@@ -21,9 +21,14 @@ android:
     # Specify at least one system image,
     # if you need to run emulator(s) during your tests
     - sys-img-x86-android-26
-    - sys-img-armeabi-v7a-android-17
     
 before_install:
     - chmod +x gradlew
+    - yes | sdkmanager "platforms;android-29"
+    - yes | sdkmanager "emulator" "tools" "platform-tools"
+    - yes | sdkmanager --licenses
+    - yes | sdkmanager "build-tools;29.0.3"
     
-    
+licenses:
+  - 'android-sdk-license-.+'
+
